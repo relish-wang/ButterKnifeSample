@@ -400,9 +400,13 @@ public class MainActivity extends AppCompatActivity {
 
 ![][sample]
 
+## 最简例子实现后的思考
+
+至此我们仅实现了在`Activity`中`View`的注解工作。那么在`Fragment`中呢？在`ViewHolder`中呢？除了`@BindView`, `@OnClick`等事件监听该如何通过注解/注解处理器实现呢？这些疑问将在之后的文章中一一解答，敬请期待。
+
 ## 写在最后
 
-APT的应用场景很广,ButterKnife的最简实现只是解开了它的冰山一角。日后还有更多的新姿势等着我们去解锁。**生命不息，学习不止。**
+APT的应用场景很广, `ButterKnife`的最简实现只是解开了它的冰山一角。日后还有更多的新姿势等着我们去解锁。**生命不息，学习不止。**
 
 
 
