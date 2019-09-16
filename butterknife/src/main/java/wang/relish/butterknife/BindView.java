@@ -11,7 +11,7 @@ import java.lang.annotation.Target;
  * @since 20190611
  */
 @Target(ElementType.FIELD)
-@Retention(RetentionPolicy.RUNTIME)
+@Retention(RetentionPolicy.SOURCE)
 public @interface BindView {
     int value();
 }
